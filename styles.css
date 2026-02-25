@@ -1,0 +1,59 @@
+/* Page container */
+.container1 {
+    width: 100%;
+}
+.container {
+    background-color: white;
+    width: 90%;       /* Makes the container slightly thinner than the screen */
+    margin: 10px auto; /* Centers the container and adds space at the top */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.9); /* Adds a subtle shadow for depth */
+}
+/*First row with headings */
+.header-row {
+    display: flex;
+    justify-content: space-around; /* Headers go in the center horizontally and vertically */
+    text-align: center;
+    text-shadow: 0 6px 18px rgba(0,0,0,0.9);
+    h1 {color: whitesmoke;};/*specify color for H1 element in header */
+    background-color: #EA4500FF;
+}
+
+/*Table rows*/
+.table-rows {
+    display: flex; /*horizontal alignment*/
+}
+
+.column{
+    flex:1; /* Forces each column to take exactly 50% of the width */
+    padding: 10px;
+    text-align: center;
+
+}
+.column-left {
+    flex:1; /* Forces each column to take exactly 50% of the width */
+    padding: 10px;
+    text-align: center;
+    border: 4px solid #ea4500;   /* Width, Style, and Color for border*/
+    box-sizing: border-box;
+}
+
+.column-right {
+    flex:1; /* Forces each column to take exactly 50% of the width */
+    padding: 10px;
+    text-align: center;
+    border: 4px solid #EA4500FF;   /* Width, Style, and Color for border*/
+    box-sizing: border-box;
+}
+
+/* H1-H6 styling for uniformity*/
+h1 { color: blue; text-align: center; }
+h2 { color: green; text-align: center; }
+h3 { color: red; text-align: center; }
+h4 { color: orange; text-align: center; }
+h5 { color: purple; text-align: center; }
+h6 { color: pink; text-align: center; }
+
+/*text align for paragraphs */
+p {
+    text-align: justify;
+}
