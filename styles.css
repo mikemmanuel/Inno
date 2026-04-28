@@ -45,6 +45,17 @@
     box-sizing: border-box;
 }
 
+.track-btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
 /* H1-H6 styling for uniformity*/
 h1 { color: blue; text-align: center; }
 h2 { color: green; text-align: center; }
